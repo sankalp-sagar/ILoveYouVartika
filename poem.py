@@ -1,0 +1,76 @@
+import sys
+import time
+def sp(str, speed):
+	for letter in str:
+		print(letter, end ="")
+		sys.stdout.flush()
+		time.sleep(speed)
+		
+						
+print("\033[1;32;40m", end = "")
+sp("Hey Vartika, wanna hear something out?", 0.05)
+print("\n")
+sp("Type yes/no if you want : ", 0.05)
+x = input()
+if x == "yes":
+	print("\033[1;33;40m", end = "")
+	print()
+	sp("You're my precious flower", 0.1)
+	print()
+	sp("You provide me all the power", 0.1)
+	print("\033[1;31;40m")
+	sp("I am really really lost in your eyes", 0.1)
+	print()
+	sp("Whenever you were sad, my heart literally cries", 0.1)
+	print("\033[1;34;40m\n")
+	sp("There's void in my heart till I met you", 0.1)
+	print("\033[1;35;40m")
+	sp("A sudden emergence of love starts growing in my chest", 0.1)
+	print("\033[1;34;40m")
+	sp("Please don't get apart, in pieces I'll be shattered to", 0.1)
+	print("\033[1;35;40m")
+	sp("So listen me out! Baby you're the best", 0.1)
+	
+	print("\033[1;33;40m\n")
+	sp("Want to live all of my life with you", 0.1)
+	print()
+	sp("Want to believe all of my love in you", 0.1)
+	print("\033[1;31;40m")
+	sp("I am not someone who is there for only the Happy hours!", 0.1)
+	print()
+	sp("Gonna bring you flowers, coz your happiness is my superpower", 0.1)
+	
+	print("\033[1;34;40m\n")
+	sp("Wanna make your mood up and look at your beautiful smile everyday", 0.1)
+	print("\033[1;35;40m")
+	sp("No matter if there are thunderstorms or a severe rain", 0.1)
+	print("\033[1;34;40m")
+	sp("I call you flower and your petals are our love which will never decay", 0.1)
+	print("\033[1;35;40m")
+	sp("So listen me out! Baby I'll share all your pain!", 0.1)
+	print("\n"*4)
+	print("\033[31;36;40m", end = "")
+	sp("Hey Vartika at the end of this I just wanna say I love you with all of my heart and I miss your voice every day and I cannot afford to lose you because you mean so much to me! you're my baby you're my everything", 0.1)
+	print("\n\n")
+	sp("I deeply love you and everyday I fall more and more for you and the love doesn't seems to stop and yes it will never ever stop for you. It is eternal and sacred.", 0.1)
+	print("\n\n")
+	print("\033[31;33;41m", end = "")
+	sp("                     I LOVE YOU VARTIKA                     ", 0.1)
+	print("\n\n")
+	print("\033[31;37;40m")
+	exit(0)
+	
+if x == "no":
+	print("\033[1;33;40m", end = "")
+	print()
+	sp("Its okay if you don't want to hear! I'm gonna go and cry now. I'm sad coz Vartika didn't say yes to me", 0.1)
+	print("\n"*4)
+	exit(0)
+
+if x != "yes":
+	if x != "no":
+		print("\033[1;33;40m", end = "")
+		print()
+		sp("Babe! That's a wrong input! Make sure you're typing in lowercase letters, now run the program again.!", 0.1)
+		print("\n"*4)
+		exit(0)
