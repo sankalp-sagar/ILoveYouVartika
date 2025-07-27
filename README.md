@@ -2,4 +2,3 @@ Well, here I paste codes which I've created for my lovely Girlfriend (Damn, I lo
 
 Note - Please look out for 'cls' and 'clear' commands according to you're running the code on Windows or Linux/Android.
 
-SPREAD LOVE/LEGS NOT HATE <3
